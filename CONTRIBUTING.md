@@ -9,7 +9,7 @@ Thank you for your interest in contributing to MedInternia — especially for GS
 Backend:
 ```
 cd backend
-cp .env.example .env
+Copy-Item .env.example .env
 # fill values in .env
 npm install
 npm run build
@@ -19,7 +19,7 @@ npm start
 Frontend:
 ```
 cd frontend
-cp .env.example .env
+Copy-Item .env.example .env
 # fill values in .env
 npm install
 npm run dev
